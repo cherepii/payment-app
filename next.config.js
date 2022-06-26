@@ -5,6 +5,6 @@ export const nextConfig = {
 	optimizeFonts: false,
 	env: {
 		APP_URL: process.env.REACT_APP_URL,
-		APP_NODE: process.env.REACT_APP_NODE,
+		NODE_ENV: process.env.REACT_APP_NODE,
 	},
 }
