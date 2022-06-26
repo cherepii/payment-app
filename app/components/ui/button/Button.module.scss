@@ -1,0 +1,9 @@
+@import '../../../styles/_variables';
+
+.button {
+	padding: 12px 18px;
+	transition: all 0.2s ease-in;
+	font-size: $text-lg;
+	background-color: transparent;
+	color: inherit;
+}

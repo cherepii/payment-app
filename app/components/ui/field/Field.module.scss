@@ -1,0 +1,39 @@
+@import '../../../styles/_variables';
+
+.field {
+	position: relative;
+	border-bottom: 1px solid $primary_color;
+	transition: all 0.15s ease-in;
+	margin-bottom: 18px;
+
+	&:focus-within {
+		border-bottom: 1px solid darken($color: $primary_color, $amount: 20%);
+	}
+
+	> label {
+		display: block;
+
+		> input {
+			width: 100%;
+			height: 35px;
+			font-size: $text-sm;
+			color: $black;
+		}
+
+		.flexItems {
+			display: flex;
+			.error {
+				color: rgba(250, 27, 27, 0.856);
+				font-size: $text-base;
+				margin: 0;
+			}
+
+			> span {
+				font-size: $text-base;
+				color: $gray;
+				display: block;
+				margin-right: 6px;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import '../../../styles/_variables';
+
+.heading {
+	font-size: $text-2xl;
+	color: $black;
+	font-weight: 600;
+}
+
+.subHeading {
+	font-size: $text-sm;
+	color: $gray;
+	font-weight: 500;
+}
